@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PServices</string>
+    <string name="register">用户注册</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="rePass">再输入密码</string>
+    <string name="button_register">注册</string>
+    <string name="loginPass">登录</string>
+    <string name="button_login">登录</string>
+    <string name="editText_password">密码</string>
+    <string name="login">用户登录</string>
+    <string name="add_type">服务类型</string>
+    <string name="add_name">服务名称</string>
+    <string name="homeback">homeback</string>
+    <string name="apptitle">PServices</string>
+    <string name="type_entry1">宠物用品服务</string>
+    <string name="type_entry2">宠物寄养服务</string>
+    <string name="type_entry3">宠物医疗服务</string>
+    <string name="type_entry4">宠物训练服务</string>
+    <string name="type_entry5">宠物娱乐服务</string>
+    <string name="type_entry6">其他宠物服务</string>
+    <string name="button_mypre">我的预约</string>
+    <string name="button_myinfo">个人信息</string>
+    <string name="provider_entry1">编辑服务</string>
+    <string name="provider_entry2">我的订单</string>
+    <string name="button_proinfo">商家信息</string>
+    <string name="button_toregister">注册</string>
+    <string name="info_entry1">用户名</string>
+    <string name="info_entry2">性别</string>
+    <string name="info_entry3">联系电话</string>
+    <string name="info_entry4">联系地址</string>
+    <string name="info_entry5">联系邮箱</string>
+    <string name="button_back">back</string>
+    <string name="button_cicomplete">完成</string>
+    <string name="entry_petinfo">宠物信息</string>
+    <string name="info_entry6">物种</string>
+    <string name="info_entry7">详情</string>
+    <string name="temp1">疫苗接种服务</string>
+    <string name="Logo">Logo</string>
+</resources>
+

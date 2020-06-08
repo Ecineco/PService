@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/homeback10"
+        android:layout_width="414dp"
+        android:layout_height="204dp"
+        android:contentDescription="@string/homeback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hall_back" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="72dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/button_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/text_apptitle10"
+        android:layout_width="168dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/apptitle"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/info_entry17"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="服务名称"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeback10" />
+
+    <Button
+        android:id="@+id/info_entry18"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="服务类型"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry17" />
+
+    <Button
+        android:id="@+id/info_entry19"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="可预约时间"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry18" />
+
+    <Button
+        android:id="@+id/info_entry20"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="服务周期与收费"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry19" />
+
+    <Button
+        android:id="@+id/info_entry21"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="每周期预约数"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry20" />
+
+    <Button
+        android:id="@+id/info_entry22"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_edge"
+        android:text="服务详情"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry21" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="41dp"
+        android:background="@color/colorAccent"
+        android:text="添加"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_entry22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

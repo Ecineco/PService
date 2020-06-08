@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecin.pserviceii">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity">
+        <intent-filter>
+            <action android:name="com.ecin.pserviceii.RegisterActivity"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+    </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.LoginActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientHomepageActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientHomepageActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderHomepageActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderHomepageActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserInfoActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.UserInfoActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderInfoActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderInfoActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PetInfoActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PetInfoActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreListActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PreListActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceEntryActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceEntryActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceDetailActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceDetailActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreservationActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PreservationActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreDetailClientActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PreDetailClientActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreDetailProActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PreDetailProActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceListActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceListActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceEntryTempActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceEntryTempActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PetInfo1Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PetInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PetInfo2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PetInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PreListProActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.PreListProActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientInfo1Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientInfo2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientInfo3Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientInfo4Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientInfo5Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ClientInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceAddActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceAddActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo1Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo3Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo4Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo5Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfo6Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd1Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd2Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd3Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd3Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd4Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd4Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd5Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd5Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceInfoAdd6Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceInfoAdd6Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceListTemp2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceListTemp2Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceEditActivity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ServiceEditActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderInfo1Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderInfo2Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderInfo3Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProviderInfo4Activity">
+            <intent-filter>
+                <action android:name="com.ecin.pserviceii.ProviderInfo1Activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
