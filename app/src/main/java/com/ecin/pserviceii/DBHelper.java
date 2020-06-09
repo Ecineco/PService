@@ -13,8 +13,8 @@ public class DBHelper {
         try{
             Class cls = Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://cdb-eweriryb.gz.tencentcdb.com:10116/PServiceII?useSSL=false&serverTimezone=UTC";
-            String user = "root";
-            String password = "7464Qing45+";
+            String user = "";
+            String password = "";
             con = DriverManager.getConnection(url,user,password);
         } catch(ClassNotFoundException e){
             //TODO
